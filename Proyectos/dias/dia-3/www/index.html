@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <title>Pagin multimedia</title>
+
+</head>
+
+<body>
+
+    <header>
+
+        <h1>Bienvenidos a mi pagina web de multimedia</h1>
+        <h2>Index</h2>
+        <nav>
+            <!--Nabegador-->
+            <ul>
+                <!--Lista desordenada-->
+                <li>
+                    <a href="#audio">Audio</a>
+                    <!--Enlace a audio-->
+                </li>
+                <li>
+                    <a href="#video">Video</a>
+                    <!--Enlace a video-->
+                </li>
+                <li>
+                    <a href="#fomulario">Form</a>
+                    <!--Enlace a el formulario-->
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <main>
+        <section>
+            <h2>id=audio>Audio</h2>
+            <audio src="media/audio.mp3" controls></audio>
+            <!--Audio con artibuto de control-->
+        </section>
+        <section>
+            <h2 id=video>Video</h2>
+            <video src="media/video.mp4" controls></video> <!-- Video con atributo de control-->
+        </section>
+        <section>
+            <h2 id=fomulario>Formularios</h2>
+            <form action="">
+                <!--Comienzo de formulario-->
+                <label for="nombre">Introduce tu nombre</label>
+                <br>
+                <br>
+                <input type="text" name="nombre" id="nombre" placeholder="Nombre">
+                <br>
+                <br>
+                <label for="descripcion">Descibete</label>
+                <br>
+                <br>
+                <textarea id="nombre" name="descripcion" placeholder="Describete"> </textarea>
+                <br>
+                <br>
+                <label for="pass">Introduce tu contraseña</label>
+                <br>
+                <br>
+                <input type="password" name="pass" id="password" placeholder="Pasword">
+                <br>
+                <br>
+                <label for="files">Selecciona la imagen de tu perfil</label>
+                <br>
+                <br>
+                <input type="file" name="files" id="archivos" multiple>
+                <br>
+                <br>
+                <label for="date">Introduce la fecha que naciste</label>
+                <br>
+                <br>
+                <input type="date" name="date" id="cumple">
+                <br>
+                <br>
+                <input type="submit" placeholder="Enviar" name="Enviar">
+            </form>
+        </section>
+
+    </main>
+
+    <footer>
+
+
+
+    </footer>
+
+</body>
+
+</html>

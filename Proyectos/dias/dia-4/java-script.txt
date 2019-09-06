@@ -1,0 +1,54 @@
+'use strict'
+//Variables
+
+    //Variable varible [valga la redundancia]
+    // let !MIvariable
+let var1;
+
+    //Variable constante [debe declarase el valor en el momento de nombrarla]
+    //const !Mivariable =!valor
+const var2 = 4;
+
+    //Varible variable [deve intentar no usarse]
+    //var !MIvariable
+var var3;
+
+//Tipos de datos
+
+    //Boollean
+    //let !Mivariable = true | false
+let var1 = true ;
+
+    //Numeros
+    //let !Mivariable = numero
+let var1 = 1 ;
+
+    //Cadenas de texto
+    //let !Mivariable = 'texto' | //let !Mivariable = "texto" | //let !Mivariable = `texto` [esta mejor que las anteriores]
+let var1 = 'texto' ;
+let var2 = `este es mi texto con ${var1} y mola` ; // solo con comillas torcidas incluye saltos y tabulados
+let var3 = "este es mi texto con" + var1 + " y mola" ;
+//Tipo de valores
+    //true | true
+    //false | false
+    //undefined | false
+    //null | false
+    //Infinity
+    //-Infinity
+
+//Aciones interesantes
+    //!! //devuelve si es true o false una variable
+!!var1 ;
+    //var1.length //delvuelve el largo de la cadena de texto
+var1.length ;
+    //var1.indexOf('texto') // busca la posicion de un texto dado
+var1.indexOf('hola') ; // me devuelve la posicion de la h de hola dentro del texto
+    //typeof var1 // devulerve el tipo de valor que es en una cadena de texto
+typeof var1 ;
+    //parseInt(vavr1) //convierte el valor de la cadena a numero no vale con texto 
+parseInt(var1) ;
+    //console.log('mensaje' | variable ) //da el valor introducido por la consola
+console.log('esto es mi texto') ;
+console.log(var1) ;
+    //Mivarible.toString() // convierte la variable en texto 
+var1.toString() ;

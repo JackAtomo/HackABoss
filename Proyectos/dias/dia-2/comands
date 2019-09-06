@@ -1,0 +1,10 @@
+nmp init -y ///iniciamos el node
+nmp install browser-sync --save-dev  //despendencias
+
+"start": "browser-sync start --server 'www' --files 'www'",
+
+
+nmp start
+
+
+

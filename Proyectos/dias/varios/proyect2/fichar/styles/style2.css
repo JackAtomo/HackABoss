@@ -1,0 +1,34 @@
+body{
+background: white;
+}
+
+table {
+background: white;
+}
+#frm{
+border: solid gray 1px;
+border-radius: 10px;
+margin-top: 100px ;
+margin: 40px ;
+max-width: 500px;
+padding: 50px;
+background: white;
+box-shadow: 10px 10px 10px 5px rgba(0,0,0,0.75);
+}
+#cfr{
+border: solid gray 1px;
+box-shadow: 10px 10px 10px 5px rgba(0,0,0,0.75);
+border-radius: 10px;
+margin-top: 100px ;
+margin: 40px ;
+max-width: 300px;
+padding: 50px;
+background: white;
+}
+
+#btm{
+color #fff;
+background: #337ab7;
+padding 5px;
+margin-left:69%;
+}

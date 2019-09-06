@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <title>Pagina</title>
+    
+</head>
+<body>
+    <header>
+    <h1>Bienvenidos a mi pagina web</h1> 
+    <nav>
+    <a href="/patatas">PATATAS</a> <!-- Link absoluto-->
+    <br>
+     <a href="#listas">Listas</a> <!--Link interno-->
+     <br>
+     <a href="#tablas">Tablas</a> <!--Link interno-->
+
+    </nav>
+    </header>
+    <form> <!-- Abrimos el fomulario-->
+    <p>Que tal estais?</p>  
+     <input type="text" placeholder="SI o NO"> <!--Ipunt te texto -->
+     <br>
+     
+     <br>
+     <label>Del uno al diez cuanto </label>
+     <br>
+     <input type="range" list="tickmarks"> <!-- Input de deslizador con rango de 0  a 10 -->
+</form>
+<datalist id="tickmarks"> <!-- lista de valores-->
+  <option value="0" label="0">
+  </option><option value="10">
+  </option><option value="20">
+  </option><option value="30">
+  </option><option value="40">
+  </option><option value="50">
+  </option><option value="60">
+  </option><option value="70">
+  </option><option value="80">
+  </option><option value="90">
+  </option><option value="100">
+</option></datalist>
+<!---
+Saltos de pagina
+-->
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<img id="image" src="./index_files/image1.png" alt="Universo"> <!--Imagen con id para LINK-->
+<br>
+<br>
+<br>
+<br>
+
+<h2 id=listas>Listas</h2>
+<h3>Lista Ordenada</h3>
+<!--Listas ordenasdas-->
+<ol>
+        <li>Dato1</li> <!--Datos lista-->
+        <li>Dato2</li> <!--Datos lista-->
+        <li>Dato3</li> <!--Datos lista-->
+        <li>Dato4</li> <!--Datos lista-->
+</ol>
+<h3>Listas desordenadas</h3>
+<!-- Listas desordenadas-->
+<ul> <!--Cabexara de la lista-->
+    <li>Dato1</li> <!--Datos de la lista-->
+    <li>Dato3</li> <!--Datos de la lista-->
+    <li>Dato2</li> <!--Datos de la lista-->
+    <li>Dato5</li> <!--Datos de la lista-->
+    <li>Dato4</li> <!--Datos de la lista-->
+</ul>
+<!--Las listas se pueden mexclar y anidar-->
+<h3>Listas de definicion</h3>
+<!--Listas que definen el temino-->
+<dl> <!--Cabezara de lista-->
+    <dt>Manzana</dt> <!-- Termino a definir-->
+    <dd>Frutas</dd> <!-- Definicion -->
+    <dt>Lechuga</dt> <!-- Termino a definir-->
+    <dd>Verdura</dd><!-- Definicion -->
+</dl>
+
+<h2 id=tablas >Tablas</h2>
+<table border="1"  >
+    <thead> <!-- Todo lo que este dentro se considera encabezado de la tabla-->
+        <tr> <!-- filas-->
+            <th>Columna1</th> <!--Columnas cabezera-->
+
+            <th>Columna1</th> <!--Columnas cabezera-->
+
+            <th>Columna1</th> <!--Columnas cabezera-->
+
+            <th>Columna1</th> <!--Columnas cabezera-->
+        </tr>
+    </thead>
+    <tbody> <!-- Todo lo que este dentrp se considera cuerpo de la tabla-->
+        <tr>
+            <td rowspan="2" >Coluna2</td> <!--Columna expandida verticalmente mediante rowspan indicando el valor de celdas a expandir-->
+
+            <td>Coluna2</td> <!--Columnas cabezera-->
+
+            <td>Coluna2</td> <!--Columnas cabezera-->
+
+            <td>Coluna2</td> <!--Columnas cabezera-->
+        </tr>
+        <tr>
+    
+                <td>Coluna2</td> <!--Columnas cabezera-->
+    
+                <td>Coluna2</td> <!--Columnas cabezera-->
+    
+                <td>Coluna2</td> <!--Columnas cabezera-->
+            </tr>
+    </tbody>
+    <tfoot><!-- Todo lo que este dentrp se considera pie de la tabla-->
+        <tr>
+            <td colspan="2">Coluna2</td> <!--Columna expandida mediante el colspan que con el numero indicas el numeros de columnas-->
+
+            <td colspan="2">Coluna2</td> <!--Columna expandida mediante el colspan que con el numero indicas el numeros de columnas-->
+        </tr>
+    </tfoot>
+</table>
+<br>
+<br>
+
+
+<table border="1">
+<thead>
+    <tr>
+        <th colspan="4" >Restaurante</th> <!--Cabezera de Tabla con expansion de 4 en horizontal-->
+    </tr>
+
+</thead>
+<tbody> <!--Cuerpo de pagina -->
+ 
+    <tr>
+        <td rowspan="2">Quick Service</td> <!--Celda expandida verticalmente 2 celdas-->
+        <td>MCDonald</td>
+        <td>Wendy</td>
+        <td>Burger King</td>
+    </tr>
+    <tr>
+        <td>KFC</td>
+        <td>A&W</td>
+        <td>Dairy Queen</td>
+    </tr>    
+    <tr>
+        <td rowspan="2">Licence</td>    <!--Celda expandida verticalmente 2 cerldas-->
+        <td>Earl's</td>
+        <td>Boston Pizza</td>
+        <td>Saffrons</td>
+    </tr>    
+    <tr>
+        <td>Moxie's</td>
+        <td>Big Guy's</td>
+        <td>Brannigans</td>
+    </tr>    
+
+ 
+</tbody>
+
+
+</table>
+
+</body>
+</html>
