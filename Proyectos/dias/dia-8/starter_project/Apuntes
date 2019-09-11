@@ -1,0 +1,13 @@
+//valor aleatorio
+var  aleatorio = Math.round(Math.random()*10);
+
+//recuerda que con MINISCULAS
+document.getElementById("salida").value 
+
+//operador terniario no recomendado
+let a = condicion ? si es verdad : si no esto
+
+//copia exacta del anterior
+const usuario2 = {...usuario1}
+
+

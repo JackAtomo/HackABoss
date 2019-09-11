@@ -1,0 +1,29 @@
+( function() {
+
+console.log('de esta manera se ejecuta solo')
+
+})()
+//de esta manera la funcion se ejecuta solo 1 vez 
+let ejemploFuncion1 = function () {
+
+    console.log('Esto es facil');
+    
+    };
+    
+    ejemploFuncion1 ();
+    
+    let ejemploFuncion2 = () => {
+    
+        console.log('Esto es muy facil');
+        
+        };
+    
+    ejemploFuncion2 ();
+    
+    function ejemploFuncion3 (){
+    
+    console.log('Esto es super facil');
+    
+    };
+    
+    ejemploFuncion3();
